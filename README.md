@@ -29,14 +29,11 @@ The project includes:
 - matplotlib
 - seaborn
 
-
 ## Files
 
 - iris.csv
 - laptop_price.csv
 - Python scripts / notebook
 
-
-## ✨ Author
 
 Belyanesh Mossie
