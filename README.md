@@ -1,69 +1,27 @@
 # Python Mini Project
 
-This repository contains small Python projects focused on clean coding, statistics, and data analysis using real datasets.
+This project contains small Python exercises focused on clean coding, statistics, and data analysis.
 
----
+## Overview
 
-## 🚀 Features
+The project includes:
 
-### 1. Function Mapping (No if-else)
+- Function mapping using dictionaries (instead of if-else)
+- Using *args for flexible functions
+- Analysis of the Iris dataset (covariance & correlation)
+- Laptop price dataset analysis
+- Data cleaning and visualization
 
-Instead of long if-else statements, operations are handled using a dictionary:
 
-```python
-def do_something(operation, x, y):  
-    operations = {
-        "mul": lambda a, b: a * b,
-        "add": lambda a, b: a + b,
-        "sub": lambda a, b: a - b,
-    }
-    return operations[operation](x, y)
-```
+## Key Insights
 
----
+- Petal features help distinguish Iris species
+- Razer laptops have the highest average price
+- 8GB is the most common RAM size
+- Higher RAM generally means higher price
 
-### 2. Average Function using *args
 
-```python
-def avg(*args):
-    return sum(args) / len(args)
-```
-
----
-
-### 3. Iris Dataset Analysis
-
-- Loaded dataset using pandas
-- Visualized data using seaborn
-- Implemented:
-  - Covariance function
-  - Covariance matrix
-  - Correlation matrix
-- Verified results using NumPy
-
----
-
-### 4. Laptop Price Analysis
-
-Dataset: `laptop_price.csv`
-
-#### Includes:
-- Price distribution
-- Average price per company
-- Operating system cleaning
-- RAM vs price analysis
-- Storage type extraction
-
----
-
-### 5. Extra Analysis
-
-- Most common RAM sizes
-- CPU type vs price
-
----
-
-## 🛠️ Tech Stack
+## Tools Used
 
 - Python
 - pandas
@@ -71,31 +29,13 @@ Dataset: `laptop_price.csv`
 - matplotlib
 - seaborn
 
----
 
-## ▶️ Installation
-
-```bash
-pip install pandas numpy matplotlib seaborn
-```
-
----
-
-## 📁 Files
+## Files
 
 - iris.csv
 - laptop_price.csv
 - Python scripts / notebook
 
----
-
-## 📌 Notes
-
-- Demonstrates replacing if-else with dictionaries
-- Shows use of *args for flexible functions
-- Includes basic data cleaning and visualization
-
----
 
 ## ✨ Author
 
