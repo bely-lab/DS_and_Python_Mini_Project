@@ -34,6 +34,3 @@ The project includes:
 - iris.csv
 - laptop_price.csv
 - Python scripts / notebook
-
-
-Belyanesh Mossie
